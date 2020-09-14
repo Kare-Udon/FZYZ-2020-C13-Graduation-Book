@@ -1,0 +1,1294 @@
+body {
+  font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif
+}
+
+/*桌面端样式*/
+@media screen and (min-width: 1201px) {
+
+  /*mainpage*/
+  #mainpage {
+    background-image: url("../img/mainpage/bg.jpg");
+    background-size: cover;
+    background-position: center 30%;
+  }
+
+  #main-texts {
+    position: relative;
+    left: 55%;
+    bottom: 26%;
+  }
+
+  #mainpage p {
+    color: white;
+    font-size: 20px;
+  }
+
+  #typed {
+    color: white;
+    white-space: pre-wrap;
+    font-size: 45px;
+    position: relative;
+    top: -0.8rem;
+    font-weight: bold;
+  }
+
+  .typed-cursor {
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: -0.8rem;
+  }
+
+  #mainpage h2 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 3px;
+  }
+
+  /*index*/
+  .carousel-item>img {
+    display: block;
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  #index-0 {
+    text-align: center;
+  }
+
+  /*page1*/
+  #page1-text-0 {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 1.4rem;
+  }
+
+  #page1-text-1 {
+    font-size: 45px;
+    color: #8A8AFE;
+    font-weight: bold;
+  }
+
+  #page1-text-2 {
+    font-size: 30px;
+    color: #FFFF99;
+    position: relative;
+    bottom: 1.3rem;
+  }
+
+  #page1-img-0 {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  #page1-img-1 {
+    position: relative;
+    top: 1rem;
+    right: -4rem;
+  }
+
+  /*page2*/
+  #page2-text-0 {
+    color: #9393FF;
+    font-size: 25px;
+    position: relative;
+    top: 1.6rem;
+  }
+
+  #page2-text-1,
+  #page2-text-2 {
+    color: #FE9595;
+    font-size: 45px;
+    font-weight: bold;
+  }
+
+  #page2-text-2 {
+    position: relative;
+    top: -1.7rem;
+  }
+
+  #page2-text-3 {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: -2.8rem;
+  }
+
+  #page2-img-0 {
+    position: relative;
+    top: 1rem;
+  }
+
+  #page2-img-1 {
+    display: block;
+    width: 100%;
+    height: 22.1rem;
+    object-fit: cover;
+    position: relative;
+    bottom: 2.7rem;
+  }
+
+  /*page3*/
+  #page3-text-0,
+  #page3-text-1,
+  #page3-text-2,
+  #page3-text-3 {
+    position: relative;
+    left: 1rem;
+  }
+
+  #page3-text-0 {
+    font-size: 25px;
+    top: 1.6rem;
+  }
+
+  #page3-text-1,
+  #page3-text-2 {
+    font-size: 45px;
+    color: #00FFCC;
+    font-weight: bold;
+  }
+
+  #page3-text-2 {
+    top: -1.6rem;
+  }
+
+  #page3-text-3 {
+    color: white;
+    font-size: 27px;
+    top: -2.5rem;
+  }
+
+  #page3-img-0 {
+    display: block;
+    width: 28rem;
+    ;
+    height: 20rem;
+    object-fit: cover;
+    position: relative;
+    top: -1.5rem;
+    left: 1rem;
+  }
+
+  #page3-img-1 {
+    position: relative;
+    top: 1.5rem;
+    left: -0.5rem;
+    ;
+  }
+
+  #page3-img-2 {
+    display: block;
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    position: relative;
+    top: 3rem;
+    left: -2.5rem;
+  }
+
+  #page3-block-0 {
+    width: 80rem;
+    height: 10.5rem;
+    background-color: grey;
+    position: fixed;
+    opacity: 0.6;
+    left: -5rem;
+    top: 4rem;
+  }
+
+  #page3-block-1 {
+    width: 15rem;
+    height: 105%;
+    position: fixed;
+    background-color: #00FFCC;
+    opacity: 0.25;
+    top: -2rem;
+    right: 22rem;
+  }
+
+  /*page4*/
+  .page456-bg-1 {
+    position: absolute;
+    float: center;
+    width: 70%;
+    height: 99.5%;
+    top: -0.4rem;
+    left: 12rem;
+    filter: blur(6px);
+    background: url('../img/page4/bg.jpg') center;
+    background-size: cover;
+    background-position: center 15%;
+    opacity: 0.9;
+  }
+
+  #page4-block-1 {
+    text-align: center;
+    width: 15rem;
+    height: 4rem;
+    background-color: #3366CC;
+    position: relative;
+    top: 4rem;
+  }
+
+  #page4-block-2 {
+    text-align: center;
+    width: 15rem;
+    height: 4rem;
+    background-color: #3366CC;
+    position: relative;
+    top: 4rem;
+    right: -12rem;
+  }
+
+  #page4-text-0,
+  #page4-text-1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  #page4-text-1 {
+    position: relative;
+    top: -1rem;
+  }
+
+  #page4-text-2 {
+    color: #767171;
+    width: 25px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 25px;
+    position: relative;
+    top: 4.8rem;
+    left: 3rem;
+  }
+
+  #page4-text-3 {
+    color: #0070C0;
+    width: 45px;
+    margin: 0 auto;
+    line-height: 55px;
+    font-size: 45px;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    font-weight: bold;
+  }
+
+  #page4-text-4 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 1rem;
+  }
+
+  #page4-text-5 {
+    color: #843C0C;
+    font-size: 18px;
+    position: relative;
+    top: 9rem;
+    left: 6.5rem;
+  }
+
+  #page4-text-6 {
+    color: #2F5597;
+    font-size: 35px;
+    position: relative;
+    top: 8rem;
+    left: 2.5rem;
+  }
+
+  #page4-img-0 {
+    width: 20rem;
+    position: relative;
+    top: -7.5rem;
+  }
+
+  #page4-img-1 {
+    width: 35rem;
+    position: relative;
+    top: -7.5rem;
+    right: 2rem;
+  }
+
+  /*page5*/
+  #page5-block-0 {
+    width: 12rem;
+    height: 4rem;
+    background-color: #3366CC;
+    text-align: center;
+    position: relative;
+    top: 8rem;
+  }
+
+  #page5-text-0 {
+    position: relative;
+    top: 0.8rem;
+    color: white;
+    font-size: 20px;
+  }
+
+  #page5-text-1,
+  #page5-text-2 {
+    font-size: 30px;
+    color: #C55A11;
+    position: relative;
+    left: -6rem;
+    top: -6rem;
+  }
+
+  #page5-text-2 {
+    position: relative;
+    top: -7.5rem;
+  }
+
+  #page5-text-3,
+  #page5-text-4 {
+    font-size: 28px;
+    color: #C55A11;
+    position: relative;
+    top: -1rem;
+    left: -1rem;
+  }
+
+  #page5-text-4 {
+    position: relative;
+    top: -2.5rem;
+  }
+
+  #page5-img-0 {
+    width: 28rem;
+    position: relative;
+    top: 7rem;
+    right: -7rem;
+  }
+
+  #page5-img-1 {
+    width: 28rem;
+    position: relative;
+    top: -5rem;
+  }
+
+  /*page6*/
+  #page6-block-0 {
+    width: 16rem;
+    height: 4rem;
+    background-color: #3366CC;
+    text-align: center;
+  }
+
+  #page6-block-1 {
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    left: -3rem;
+  }
+
+  #page6-text-0,
+  #page6-text-1 {
+    font-size: 20px;
+    color: white;
+  }
+
+  #page6-text-1 {
+    position: relative;
+    top: -1.2rem;
+  }
+
+  #page6-text-2 {
+    font-size: 30px;
+    color: #2F5597;
+  }
+
+  #page6-text-3 {
+    font-size: 38px;
+    color: #2F5597;
+    font-weight: bold;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  /*page7*/
+  #page7-block-0 {
+    float: right;
+    position: relative;
+    right: 7rem;
+    bottom: 2rem;
+  }
+
+  #page7-text-0 {
+    color: #FFFF00;
+    font-size: 20px;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  #page7-text-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    bottom: 2.7rem;
+  }
+
+  /*page8*/
+  #page8-block-0 {
+    float: center;
+  }
+
+  #page8-text-0 {
+    color: #C55A11;
+    font-size: 35px;
+    width: 35px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    left: -2rem;
+    top: -4rem;
+  }
+
+  #page8-text-1 {
+    color: #DD4654;
+    font-size: 35px;
+    width: 35px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+    right: -2rem;
+    bottom: -4rem;
+  }
+
+  #page8-img-0 {
+    width: 35%;
+    position: absolute;
+    top: 8.5rem;
+  }
+
+  #page8-img-1 {
+    width: 35%;
+    position: absolute;
+    bottom: 8.5rem;
+    right: 5rem;
+  }
+
+  /*page9*/
+  #page9-text-0 {
+    color: #00B050;
+    font-size: 50px;
+    position: relative;
+    top: 2rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #page9-text-1 {
+    color: #C00000;
+    font-size: 45px;
+    float: right;
+    position: relative;
+    right: -25rem;
+    bottom: -19rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #page9-img-0 {
+    width: 40%;
+    position: relative;
+    bottom: -1rem;
+  }
+
+  #page9-img-1 {
+    width: 40%;
+    float: right;
+    position: relative;
+    top: -2rem;
+  }
+
+  /*page10*/
+  #page10-text-0 {
+    color: #2F5597;
+    font-size: 30px;
+    position: relative;
+    top: -25rem;
+    font-weight: bold;
+    float: right;
+  }
+
+  #page10-text-1 {
+    color: #DD4654;
+    font-size: 30px;
+    float: left;
+    position: relative;
+    right: 0rem;
+    bottom: -2.5rem;
+    font-weight: bold;
+  }
+
+  #page10-img-0 {
+    width: 45%;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  #page10-img-1 {
+    width: 45%;
+    float: right;
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  /*page11*/
+  #page11-img-0 {
+    width: 28%;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  #page11-img-1 {
+    width: 65%;
+    float: right;
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  /*ending*/
+  #ending-bg {
+    position: fixed;
+    top: -5rem;
+    width: 100%;
+    height: 120%;
+    filter: blur(1.5px);
+    background: url('../img/ending/bg.jpg') center;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #ending-block-0 {
+    position: relative;
+    text-align: right;
+    float: right;
+    right: 5rem;
+    bottom: 4rem;
+  }
+
+  #ending-block-1 {
+    width: 89vw;
+    text-align: center;
+  }
+
+  #ending-text-0 {
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #ending-text-1 {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 2rem;
+    right: 1rem;
+  }
+
+  #ending-text-2 {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+/*移动端样式*/
+@media screen and (max-width: 1200px) {
+
+  /*mainpage*/
+  #mainpage {
+    background-image: url("../img/mainpage/bg.jpg");
+    background-size: cover;
+  }
+
+  #main-texts {
+    position: relative;
+    left: 37%;
+    bottom: 26%;
+  }
+
+  #mainpage p {
+    color: white;
+  }
+
+  #typed {
+    color: white;
+    white-space: pre-wrap;
+    font-size: 30px;
+    position: relative;
+    top: -0.6rem;
+    font-weight: bold;
+  }
+
+  .typed-cursor {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -0.6rem;
+  }
+
+  #mainpage h2 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 3px;
+  }
+
+  /*index*/
+  #index-0 {
+    text-align: center;
+    position: relative;
+    top: 1rem;
+  }
+
+  /*page1*/
+  #page1-text-0 {
+    font-size: 25px;
+    color: white;
+    position: relative;
+    top: 1.4rem;
+  }
+
+  #page1-text-1 {
+    font-size: 35px;
+    color: #8A8AFE;
+    font-weight: bold;
+  }
+
+  #page1-text-2 {
+    font-size: 30px;
+    color: #FFFF99;
+    position: relative;
+    bottom: 1.3rem;
+  }
+
+  #page1-img-0 {
+    display: block;
+    width: 87%;
+    height: 13rem;
+    object-fit: cover;
+    text-align: center;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  #page1-img-1 {
+    display: block;
+    width: 87%;
+    height: 13rem;
+    object-fit: cover;
+    position: relative;
+    bottom: 1.2rem;
+  }
+
+  /*page2*/
+  #page2-text-0 {
+    color: #FE9595;
+    font-size: 18px;
+    position: relative;
+    top: 1.3rem;
+  }
+
+  #page2-text-1 {
+    color: #9393FF;
+    font-size: 35px;
+    position: relative;
+    top: -0.2rem;
+    font-weight: bold;
+  }
+
+  #page2-text-2 {
+    color: #9393FF;
+    font-size: 35px;
+    position: relative;
+    top: -1.9rem;
+    font-weight: bold;
+  }
+
+  #page2-text-3 {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: -3.2rem;
+  }
+
+  #page2-img-0 {
+    display: block;
+    width: 87%;
+    height: 15rem;
+    object-fit: cover;
+    position: relative;
+    top: 0.8rem;
+  }
+
+  #page2-img-1 {
+    display: block;
+    width: 87%;
+    height: 23%;
+    object-fit: cover;
+    position: relative;
+    top: -3.7rem;
+  }
+
+  /*page3*/
+  #page3-text-0,
+  #page3-text-1,
+  #page3-text-2,
+  #page3-text-3 {
+    position: relative;
+    left: 1rem;
+  }
+
+  #page3-text-0 {
+    font-size: 18px;
+    top: 1rem;
+  }
+
+  #page3-text-1,
+  #page3-text-2 {
+    font-size: 35px;
+    color: #00FFCC;
+    font-weight: bold;
+  }
+
+  #page3-text-1 {
+    position: relative;
+    top: -0.5rem;
+  }
+
+  #page3-text-2 {
+    top: -2.2rem;
+  }
+
+  #page3-text-3 {
+    color: white;
+    font-size: 20px;
+    top: -3.5rem;
+  }
+
+  #page3-img-0 {
+    display: block;
+    width: 82%;
+    height: 8rem;
+    object-fit: cover;
+    position: relative;
+    top: -3.2rem;
+    left: 1rem;
+  }
+
+  #page3-img-1 {
+    position: relative;
+    display: block;
+    width: 82%;
+    height: 9rem;
+    object-fit: cover;
+    top: -2.5rem;
+    left: 1rem;
+  }
+
+  #page3-img-2 {
+    display: block;
+    width: 82%;
+    height: 8rem;
+    object-fit: cover;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+  }
+
+  #page3-block-0 {
+    width: 100rem;
+    height: 7.5rem;
+    background-color: grey;
+    position: fixed;
+    opacity: 0.6;
+    left: -5rem;
+    top: 2.5rem;
+  }
+
+  #page3-block-1 {
+    width: 6.5rem;
+    height: 100%;
+    position: fixed;
+    background-color: #00FFCC;
+    opacity: 0.25;
+    top: -2rem;
+    right: 2rem;
+  }
+
+  /*page4*/
+  .page456-bg-1 {
+    position: absolute;
+    float: center;
+    width: 20rem;
+    height: 99.5%;
+    top: -0.4rem;
+    left: 1rem;
+    filter: blur(6px);
+    background: url('../img/page4/bg.jpg') center;
+    background-size: cover;
+    background-position: center 15%;
+    opacity: 0.9;
+  }
+
+  #page4-block-1 {
+    text-align: center;
+    width: 12rem;
+    height: 3.5rem;
+    background-color: #3366CC;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  #page4-block-2 {
+    text-align: center;
+    width: 12rem;
+    height: 3.5rem;
+    background-color: #3366CC;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  #page4-text-0,
+  #page4-text-1 {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 0.5rem;
+  }
+
+  #page4-text-1 {
+    position: relative;
+    top: -0.7rem;
+  }
+
+  #page4-text-2 {
+    color: #767171;
+    width: 20px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    position: relative;
+    top: -13rem;
+    right: -8.8rem;
+  }
+
+  #page4-text-3 {
+    color: #0070C0;
+    width: 30px;
+    margin: 0 auto;
+    line-height: 37px;
+    font-size: 30px;
+    position: relative;
+    top: -2.5rem;
+    right: -6.5rem;
+    font-weight: bold;
+  }
+
+  #page4-text-4 {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 1rem;
+  }
+
+  #page4-text-5 {
+    width: 18px;
+    margin: 0 auto;
+    line-height: 22px;
+    color: #843C0C;
+    font-size: 18px;
+    position: relative;
+    bottom: 12rem;
+    left: 6.5rem;
+  }
+
+  #page4-text-6 {
+    width: 20px;
+    margin: 0 auto;
+    line-height: 22px;
+    color: #2F5597;
+    font-size: 20px;
+    position: relative;
+    bottom: 16rem;
+    right: -8.5rem;
+  }
+
+  #page4-img-0 {
+    width: 65%;
+    position: relative;
+    top: -17.5rem;
+  }
+
+  #page4-img-1 {
+    width: 65%;
+    position: relative;
+    bottom: 28rem;
+  }
+
+  /*page5*/
+  #page5-block-0 {
+    width: 10rem;
+    height: 3rem;
+    background-color: #3366CC;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+  }
+
+  #page5-text-0 {
+    position: relative;
+    top: 0.8rem;
+    color: white;
+    font-size: 15px;
+  }
+
+  #page5-text-1,
+  #page5-text-2 {
+    font-size: 20px;
+    color: #C55A11;
+    position: relative;
+    left: 2rem;
+    top: -7rem;
+  }
+
+  #page5-text-2 {
+    position: relative;
+    top: -8.2rem;
+  }
+
+  #page5-text-3,
+  #page5-text-4 {
+    font-size: 18px;
+    color: #C55A11;
+    position: relative;
+    bottom: 11rem;
+    right: -13rem;
+  }
+
+  #page5-text-4 {
+    position: relative;
+    top: -12.2rem;
+  }
+
+  #page5-img-0 {
+    width: 70%;
+    position: relative;
+    bottom: -20rem;
+    right: -4rem;
+  }
+
+  #page5-img-1 {
+    width: 70%;
+    position: relative;
+    top: -8rem;
+  }
+
+  /*page6*/
+  #page6-block-0 {
+    width: 14rem;
+    height: 4rem;
+    background-color: #3366CC;
+    text-align: center;
+    position: relative;
+  }
+
+  #page6-block-1 {
+    text-align: center;
+    position: relative;
+    top: 2rem;
+    left: -1.5rem;
+  }
+
+  #page6-text-0,
+  #page6-text-1 {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 0.7rem;
+  }
+
+  #page6-text-1 {
+    position: relative;
+    top: -0.4rem;
+  }
+
+  #page6-text-2 {
+    font-size: 25px;
+    color: #2F5597;
+  }
+
+  #page6-text-3 {
+    font-size: 30px;
+    color: #2F5597;
+    font-weight: bold;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  #page6-img-0 {
+    width: 85%;
+  }
+
+  /*page7*/
+  #page7-block-0 {
+    float: center;
+    text-align: center;
+  }
+
+  #page7-text-0 {
+    color: #FFFF00;
+    font-size: 25px;
+    position: relative;
+  }
+
+  #page7-text-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  #page7-img-0 {
+    width: 86%;
+    position: relative;
+    top: -2rem;
+  }
+
+  /*page8*/
+  #page8-block-0 {
+    float: center;
+  }
+
+  #page8-text-0 {
+    color: #C55A11;
+    font-size: 25px;
+    position: relative;
+    right: -10rem;
+    top: -9rem;
+  }
+
+  #page8-text-1 {
+    color: #DD4654;
+    font-size: 25px;
+    width: 25px;
+    line-height: 30px;
+    margin: 0 auto;
+    position: relative;
+    left: -9rem;
+    bottom: -8rem;
+  }
+
+  #page8-img-0 {
+    width: 65%;
+    position: relative;
+    top: 5rem;
+    left: 3.5rem;
+  }
+
+  #page8-img-1 {
+    width: 65%;
+    position: relative;
+    float: right;
+    bottom: 5rem;
+    right: 3.5rem;
+  }
+
+  /*page9*/
+  #page9-text-0 {
+    color: #00B050;
+    font-size: 40px;
+    position: relative;
+    top: -3rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #page9-text-1 {
+    color: #C00000;
+    font-size: 40px;
+    float: right;
+    position: relative;
+    right: -12rem;
+    bottom: -9rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  #page9-img-0 {
+    width: 70%;
+    position: relative;
+    bottom: 4rem;
+  }
+
+  #page9-img-1 {
+    width: 70%;
+    float: right;
+    position: relative;
+    right: 3rem;
+    bottom: 3rem;
+  }
+
+  /*page10*/
+  #page10-text-0 {
+    color: #2F5597;
+    font-size: 23px;
+    position: relative;
+    top: 1.5rem;
+    font-weight: bold;
+    float: right;
+  }
+
+  #page10-text-1 {
+    color: #DD4654;
+    font-size: 23px;
+    float: left;
+    position: relative;
+    left: 1rem;
+    bottom: -0.5rem;
+    font-weight: bold;
+  }
+
+  #page10-img-0 {
+    width: 80%;
+    float: center;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+  }
+
+  #page10-img-1 {
+    width: 80%;
+    float: center;
+    position: relative;
+    top: 1rem;
+    right: -1rem;
+  }
+
+  /*page11*/
+  #page11-img-0 {
+    width: 60%;
+    position: relative;
+    float: center;
+    top: -2rem;
+    left: 4rem;
+  }
+
+  #page11-img-1 {
+    width: 80%;
+    float: right;
+    position: relative;
+    top: 0rem;
+    right: 3rem;
+  }
+
+  /*ending*/
+  #ending-bg {
+    position: fixed;
+    top: -5rem;
+    width: 100%;
+    height: 120%;
+    filter: blur(1.5px);
+    background: url('../img/ending/bg.jpg') center;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  #ending-block-0 {
+    position: relative;
+    text-align: center;
+    float: center;
+  }
+
+  #ending-block-1 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #ending-text-0 {
+    font-size: 80px;
+    letter-spacing: -1.5px;
+    color: white;
+    font-weight: bold;
+  }
+
+  #ending-text-1 {
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 1rem;
+  }
+
+  #ending-text-2 {
+    color: white;
+    font-size: 15px;
+  }
+
+}
+
+#index {
+  background: #FFFFFF;
+}
+
+#page1 {
+  background: #FFCCCC;
+}
+
+#page2 {
+  background: #FFFF99;
+}
+
+#page3 {
+  background-image: url("../img/page3/bg.jpg");
+  background-size: cover;
+  background-position: center 15%;
+}
+
+.page456-bg-0 {
+  position: fixed;
+  width: 100%;
+  height: 99.5%;
+  top: 0rem;
+  filter: blur(1px);
+  background: url('../img/page4/bg.jpg') center;
+  background-size: cover;
+  background-position: center 15%;
+}
+
+#page7 {
+  background: url("../img/page7/bg.png") center;
+  background-size: 100% 100%;
+}
+
+#page8 {
+  background: url("../img/page8/bg.png") center;
+  background-size: 100% 100%;
+}
+
+#page9,
+#page10,
+#page11 {
+  background: url("../img/page9/bg.png") center;
+  background-size: 100% 100%;
+}
+
+#page12 {
+  background-color: #9999CC;
+}
+
+#page13 {
+  background-color: #99CCFF;
+}
