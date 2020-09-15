@@ -7,7 +7,7 @@ body {
 
   /*mainpage*/
   #mainpage {
-    background-image: url("../img/mainpage/bg.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/mainpage/bg.jpg");
     background-size: cover;
     background-position: center 30%;
   }
@@ -218,7 +218,7 @@ body {
     top: -0.4rem;
     left: 12rem;
 
-    background: url('../img/page4/bg.jpg') center;
+    background: url('https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page4/bg.jpg') center;
     background-size: cover;
     background-position: center 15%;
     opacity: 0.9;
@@ -565,7 +565,7 @@ body {
     width: 100%;
     height: 120%;
    
-    background: url('../img/ending/bg.jpg') center;
+    background: url('https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/ending/bg.jpg') center;
     background-size: cover;
     background-position: center center;
   }
@@ -609,7 +609,7 @@ body {
 
   /*mainpage*/
   #mainpage {
-    background-image: url("../img/mainpage/bg.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/mainpage/bg.jpg");
     background-size: cover;
   }
 
@@ -837,7 +837,7 @@ body {
     top: -0.4rem;
     left: 1rem;
    
-    background: url('../img/page4/bg.jpg') center;
+    background: url('https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page4/bg.jpg') center;
     background-size: cover;
     background-position: center 15%;
     opacity: 0.9;
@@ -1201,7 +1201,7 @@ body {
     top: -5rem;
     width: 100%;
     height: 120%;
-    background: url('../img/ending/bg.jpg') center;
+    background: url('https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/ending/bg.jpg') center;
     background-size: cover;
     background-position: center center;
   }
@@ -1251,7 +1251,7 @@ body {
 }
 
 #page3 {
-  background-image: url("../img/page3/bg.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page3/bg.jpg");
   background-size: cover;
   background-position: center 15%;
 }
@@ -1262,25 +1262,25 @@ body {
   height: 99.5%;
   top: 0rem;
  
-  background: url('../img/page4/bg.jpg') center;
+  background: url('https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page4/bg.jpg') center;
   background-size: cover;
   background-position: center 15%;
 }
 
 #page7 {
-  background: url("../img/page7/bg.png") center;
+  background: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page7/bg.png") center;
   background-size: 100% 100%;
 }
 
 #page8 {
-  background: url("../img/page8/bg.png") center;
+  background: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page8/bg.png") center;
   background-size: 100% 100%;
 }
 
 #page9,
 #page10,
 #page11 {
-  background: url("../img/page9/bg.png") center;
+  background: url("https://cdn.jsdelivr.net/gh/Lao-Liu233/FZYZ-2020-C13-Graduation-Book/img/page9/bg.png") center;
   background-size: 100% 100%;
 }
 
