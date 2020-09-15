@@ -24,8 +24,28 @@ $(document).ready(function () {
         animateAnchor: false,
 
         //events
-        onLeave: function (index, nextIndex, direction) {},
+        onLeave: function (index, nextIndex, direction) {
+            if(direction =='down'){
+                console.log("down");
+                typed.stop();
+            };
+            if(nextIndex == 1 && direction == 'up'){
+                console.log("mainpage");
+                typed.start();
+            };
+        },
         afterLoad: function (anchorLink, index) {},
         afterRender: function () {},
     });
+    var options = {
+        strings: [
+            '「时光穿梭机」',
+            '向下滑动开启'
+        ],
+        typeSpeed: 120, //打印速度
+        startDelay: 400, //开始之前的延迟300毫秒
+        backSpeed: 80,
+        loop: true, //是否循环
+    };
+    var typed = new Typed('#typed', options);
 });
