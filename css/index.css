@@ -753,7 +753,7 @@ body {
 
   #page3-text-0 {
     font-size: 18px;
-    top: 1rem;
+    top: 0.8rem;
   }
 
   #page3-text-1,
@@ -765,15 +765,15 @@ body {
 
   #page3-text-1 {
     position: relative;
-    top: -0.5rem;
+    top: -0.7rem;
   }
 
   #page3-text-2 {
-    top: -2.2rem;
+    top: -2.4rem;
   }
 
   #page3-text-3 {
-    color: white;
+    color: black;
     font-size: 20px;
     top: -3.5rem;
   }
@@ -810,7 +810,7 @@ body {
 
   #page3-block-0 {
     width: 100rem;
-    height: 7.5rem;
+    height: 7.7rem;
     background-color: grey;
     position: fixed;
     opacity: 0.6;
